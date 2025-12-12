@@ -1,0 +1,24 @@
+# Core ML
+torch>=2.4.0
+transformers>=4.51.0
+accelerate>=1.4.0
+bitsandbytes>=0.45.0
+peft>=0.14.0
+datasets>=3.3.0
+
+# TRL with vLLM support (0.26+ for correct GRPOConfig API)
+trl[vllm]>=0.26.0
+
+# Scientific
+numpy<2.0.0  # Keep numpy 1.x for sklearn compatibility
+pandas>=2.2.0
+scikit-learn>=1.5.0
+scipy>=1.13.0
+
+# Utils
+tqdm>=4.67.0
+pyyaml>=6.0.0
+wandb>=0.19.0
+
+# Optional: Flash attention (install separately if needed)
+# flash-attn>=2.7.0

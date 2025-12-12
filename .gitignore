@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+.venv/
+
+# Training artifacts (large files)
+*.safetensors
+*.bin
+*.pt
+*.pth
+j1-nano-causal-lora/
+checkpoints/
+
+# Data files
+*.csv
+*.parquet
+
+# Weights & Biases
+wandb/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Results (can regenerate)
+results/
+
+# Verdict cache
+.verdict/
+
+# OS
+.DS_Store
+Thumbs.db
